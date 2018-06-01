@@ -7,5 +7,7 @@
         "File"
     ],
     "targetOsType": "Windows",
-	"commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./Add-Disk.ps1')]"
+	"runCommand": {
+		"commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./Add-Disk.ps1')]"
+	}
 }
